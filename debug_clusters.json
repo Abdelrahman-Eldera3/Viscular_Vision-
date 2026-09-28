@@ -1,0 +1,363 @@
+{
+ "video": "07.mp4",
+ "total_frames": 15,
+ "evidence_threshold": 5,
+ "vessels": [
+  {
+   "vessel_id": 1,
+   "interpretation": "MILD STENOSIS",
+   "occlusion_rule": null,
+   "cutoff_detail": {
+    "antegrade": false,
+    "retrograde": false,
+    "retro_delay_frames": null,
+    "retrograde_pattern_without_delayed_filling": false,
+    "patent_elsewhere_via_vessel": null,
+    "min_top_ratio": 0.062,
+    "max_bot_ratio": 0.938,
+    "other_upstream": false,
+    "other_downstream": false,
+    "naturally_tapered": false,
+    "median_rvd_px": 18.0,
+    "pieces_used": 15,
+    "pieces_total": 15
+   },
+   "interruption": {
+    "interruption_status": "NONE",
+    "interruption_gap_px": null,
+    "interruption_frames": 0,
+    "interruption_persistence": null,
+    "interruption_votes": {}
+   },
+   "evidence": {
+    "raw_cluster_id": 1,
+    "frames_passed_gate": 15,
+    "evidence_threshold": 5,
+    "footprint_overlap": null,
+    "edge_rim_ratio": 0.28,
+    "edge_rim_vs_noise": 1.1,
+    "evidence_status": "RELIABLE"
+   },
+   "is_branch": false,
+   "parent_id": null,
+   "detections": [
+    {
+     "frame": 0,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 20897,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 33.3,
+     "MLD_px": 12.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      564,
+      561
+     ],
+     "contrast": 62.5,
+     "gaps": []
+    },
+    {
+     "frame": 1,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21363,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.7,
+     "gaps": []
+    },
+    {
+     "frame": 2,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21498,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.3,
+     "gaps": []
+    },
+    {
+     "frame": 3,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21446,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.4,
+     "gaps": []
+    },
+    {
+     "frame": 4,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21425,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.4,
+     "gaps": []
+    },
+    {
+     "frame": 5,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21420,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.4,
+     "gaps": []
+    },
+    {
+     "frame": 6,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21432,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.4,
+     "gaps": []
+    },
+    {
+     "frame": 7,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21439,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.3,
+     "gaps": []
+    },
+    {
+     "frame": 8,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21439,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.3,
+     "gaps": []
+    },
+    {
+     "frame": 9,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21463,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.3,
+     "gaps": []
+    },
+    {
+     "frame": 10,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21605,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 61.2,
+     "gaps": []
+    },
+    {
+     "frame": 11,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21620,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 61.2,
+     "gaps": []
+    },
+    {
+     "frame": 12,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21811,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.9,
+     "gaps": []
+    },
+    {
+     "frame": 13,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21788,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.8,
+     "gaps": []
+    },
+    {
+     "frame": 14,
+     "box": [
+      540,
+      80,
+      620,
+      1200
+     ],
+     "area": 21806,
+     "passed_gate": true,
+     "gate_rejection": "PASSED",
+     "DS_pct": 27.8,
+     "MLD_px": 13.0,
+     "RVD_px": 18.0,
+     "stenosis_xy": [
+      566,
+      524
+     ],
+     "contrast": 60.8,
+     "gaps": []
+    }
+   ]
+  }
+ ],
+ "suppressed": []
+}
